@@ -38,16 +38,16 @@
   ```
 ## 执行以下
   **删掉node-modules**
-  ```
-  npm install
-  ```       
+    ```
+    npm install
+    ```       
 
         
 ## 使用方法
 
 - 进入到项目的根目录，然后运行命令即可
 
-        cd project/aaa
+        cd project/folder
         zdt
         
 ### livereload 需下载插件使用
