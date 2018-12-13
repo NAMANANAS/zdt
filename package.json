@@ -1,0 +1,35 @@
+{
+  "name": "zdt",
+  "version": "1.0.0",
+  "description": "Front End LocalServer",
+  "main": "index.js",
+  "bin": "./bin/zdt.js",
+  "scripts": {
+    "dev": "node-dev ./index",
+    "start": "node index.js"
+  },
+  "author": "Harx",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "connect": "^3.4.0",
+    "gulp": "^4.0.0",
+    "ip": "^1.0.1",
+    "less": "^3.9.0",
+    "livereload": "^0.7.0",
+    "mime": "^2.4.0",
+    "mkdir-p": "0.0.7",
+    "mockjs": "^1.0.1-beta3",
+    "morgan": "^1.6.1",
+    "node-jsp": "0.0.4",
+    "node-sass": "^4.11.0",
+    "node-ssi": "^0.3.1",
+    "opn": "^5.4.0",
+    "serve-index": "^1.7.2",
+    "serve-static": "^1.10.0",
+    "url": "^0.11.0",
+    "util": "^0.11.1",
+    "velocity": "^0.7.2"
+  },
+  "devDependencies": {}
+}

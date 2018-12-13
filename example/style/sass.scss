@@ -1,0 +1,7 @@
+$hi:"hello";
+#sass{
+    &:before{
+        content:$hi+" i'm the second scss file:";
+        color:#c69;
+    }
+}

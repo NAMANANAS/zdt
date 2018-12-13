@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "authors": [
+    "harx <harx@live.cn>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.X"
+  }
+}

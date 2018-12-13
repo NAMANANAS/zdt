@@ -1,0 +1,18 @@
+.head-banner {
+    position: relative;
+    background: #fff url(../images/headBaner.png) no-repeat center 0;
+    height: 697px;
+    .btn-upload {
+        position: absolute;
+        top: 477px;
+        left: 50%;
+        margin-left: -100px;
+        width: 200px;
+        height: 62px;
+        background: transparent url(../images/btn_bg.png) no-repeat 0 0;
+        text-indent: -9999em;
+        &:hover, &:active {
+            background-position: 0 -62px;
+        }
+    }
+}

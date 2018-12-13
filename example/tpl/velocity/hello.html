@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--<link rel="stylesheet" href="/style/sass.scss"/>-->
+    <!--test rewrite-->
+    <link rel="stylesheet" href="/style/style/sass.scss"/>
+    <link rel="stylesheet" href="/style/less.less"/>
+    <link rel="stylesheet" href="/style/noResource.less"/>
+</head>
+<body>
+<h1>$!{title}</h1>
+#parse("velocity/part_child.html")
+
+<h1>#foreach</h1>
+<ul>
+    #foreach( $item in $items)
+    <li>$!{velocityCount}:$!{item.name}</li>
+    #end
+</ul>
+
+<h1 id="less">less is Work</h1>
+
+<h1 id="sass"></h1>
+
+<h1 id="ajax"></h1>
+
+<p></p>
+<script src="../../script/bower_components/jquery/dist/jquery.js"></script>
+<script src="/script/main.js"></script>
+</body>
+</html>

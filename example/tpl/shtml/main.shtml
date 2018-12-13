@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>main.shtml</h1>
+<p>should include <code>header.shtml</code> below</p>
+
+<!--#include virtual="inc/header.shtml" -->
+
+</body>
+</html>
